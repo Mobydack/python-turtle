@@ -6,12 +6,12 @@ t = turtle.Turtle()
 t.speed(0)
 
 def square(size):
-    for i in range(4):
+    for _ in range(4):
         t.forward(size)
         t.right(90)
 
 def circle(count, right):
-    for i in range(count):
+    for _ in range(count):
         square(100)
         t.right(right)
 
